@@ -6,17 +6,17 @@ def join_nested_strings(src)
   row = 0 
   while row < src.length do 
     element = 0 
-    strings = []
+    words = []
     while element < src[row].length do 
       if src[row][element] = " "
-        strings << src[row][element]
+        words << src[row][element]
       end 
       element += 1
     end
     row += 1
   end
   
-   strings.join(" ")
+   words.join(" ")
   
   
   
