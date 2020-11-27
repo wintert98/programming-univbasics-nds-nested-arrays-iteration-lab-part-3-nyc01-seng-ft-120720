@@ -16,7 +16,7 @@ def join_nested_strings(src)
     row += 1
   end
   
-   words.join(" ")
+   words
   
   
   
