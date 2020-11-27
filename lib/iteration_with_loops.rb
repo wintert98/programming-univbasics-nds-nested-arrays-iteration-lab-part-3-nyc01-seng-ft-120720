@@ -5,8 +5,10 @@ def join_nested_strings(src)
   
   row = 0 
   while row < src.count do 
+    
+    words =[]
     element = 0 
-    words = []
+    
     while element < src[row].count do 
       if src[row][element].class == String
         words << src[row][element]
